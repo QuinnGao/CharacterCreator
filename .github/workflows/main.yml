@@ -8,7 +8,7 @@ on:
   # the main branch
   pull_request:
     branches:
-      - main
+      - stable
       
 jobs:
   check-quality:
@@ -23,7 +23,7 @@ jobs:
       # `actions/` = GH
       # `something-else/` = third party
       # This is a GH ready-to-use action
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Install Node Modules
       # Run the lint custom NPM command that triggers the
