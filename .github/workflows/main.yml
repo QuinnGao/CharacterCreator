@@ -1,4 +1,4 @@
-name: vite-vue3-admin
+name: demo-deploy
 on:
   push:
     branches:
