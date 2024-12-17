@@ -125,7 +125,7 @@ function Create({fetchNewModel}) {
               >
                 <div className={styles.frameContainer}>
                   <img
-                    src={"/assets/backgrounds/class-frame.svg"}
+                    src={import.meta.env.VITE_PUBLIC_PATH + "/assets/backgrounds/class-frame.svg"}
                     className={styles.frame}
                   />
                 </div>
@@ -133,7 +133,7 @@ function Create({fetchNewModel}) {
                 <div className={styles.lockedContainer}>
                   {characterClass["disabled"] && (
                     <img
-                      src={"/assets/icons/locked.svg"}
+                      src={import.meta.env.VITE_PUBLIC_PATH + "/assets/icons/locked.svg"}
                       className={styles.locked}
                     />
                   )}
