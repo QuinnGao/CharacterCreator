@@ -86,7 +86,7 @@ async function fetchPersonality() {
 
 async function fetchScene() {
   // load environment
-  const modelPath = VITE_PUBLIC_PATH + "/3d/Platform.glb"
+  const modelPath = import.meta.env.VITE_PUBLIC_PATH + "/3d/Platform.glb"
 
   const loader = new GLTFLoader()
   // load the modelPath
