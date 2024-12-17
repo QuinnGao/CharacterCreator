@@ -36,7 +36,7 @@ function Create({fetchNewModel}) {
   const classes = [
     {
         name: t('classes.beastPainter.name'),
-        image: "/assets/media/disabled.png",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/disabled.png",
         description: t('classes.beastPainter.description'),
         icon: "/assets/icons/class-beast-painter.svg",
         disabled: true,
@@ -44,7 +44,7 @@ function Create({fetchNewModel}) {
       },
       {
         name: t('classes.engineer.name'),
-        image: "/assets/media/disabled.png",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/disabled.png",
         description: t('classes.engineer.description'),
         icon: "/assets/icons/class-engineer.svg",
         disabled: true,
@@ -52,7 +52,7 @@ function Create({fetchNewModel}) {
       },
       {
         name: t('classes.dropHunter.name'),
-        image: "/assets/media/DropHunter.png",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/DropHunter.png",
         description: t('classes.dropHunter.description'),
         icon: "/assets/icons/class-drop-hunter.svg",
         disabled: false,
@@ -60,7 +60,7 @@ function Create({fetchNewModel}) {
       },
       {
         name: t('classes.theDegen.name'),
-        image: "/assets/media/degens.gif",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/degens.gif",
         description: t('classes.theDegen.description'),
         icon: "/assets/icons/class-the-degen.svg",
         disabled: true,
@@ -68,7 +68,7 @@ function Create({fetchNewModel}) {
       },
       {
         name: t('classes.neuralHacker.name'),
-        image: "/assets/media/NeuralHacker.png",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/NeuralHacker.png",
         description: t('classes.neuralHacker.description'),
         icon: "/assets/icons/class-neural-hacker.svg",
         disabled: false,
@@ -76,7 +76,7 @@ function Create({fetchNewModel}) {
       },
       {
         name: t('classes.liskWitch.name'),
-        image: "/assets/media/disabled.png",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/disabled.png",
         description: t('classes.liskWitch.description'),
         icon: "/assets/icons/class-lisk-witch.svg",
         disabled: true,
@@ -84,7 +84,7 @@ function Create({fetchNewModel}) {
       },
       {
         name: t('classes.bruiser.name'),
-        image: "/assets/media/disabled.png",
+        image: import.meta.env.VITE_PUBLIC_PATH + "/assets/media/disabled.png",
         description: t('classes.bruiser.description'),
         icon: "/assets/icons/class-bruiser.svg",
         disabled: true,
