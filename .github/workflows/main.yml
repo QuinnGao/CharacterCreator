@@ -1,4 +1,4 @@
-name: demo-deploy
+name: stable deploy
 on:
   push:
     branches:
